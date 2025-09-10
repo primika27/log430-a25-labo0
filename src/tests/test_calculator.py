@@ -10,4 +10,8 @@ def test_app():
     my_calculator = Calculator()
     assert my_calculator.get_hello_message() == "Calculatrice"
 
-# TODO: ajoutez les tests
+def test_addition():
+    my_calculator = Calculator()
+    assert my_calculator.add(2, 3) == 5
+    assert my_calculator.add(-1, 1) == 0
+    assert my_calculator.add(-1, -1) == -2
