@@ -4,7 +4,7 @@ Ce document, basé sur le modèle arc42, décrit une application calculatrice po
 ## 1. Introduction et Objectifs
 
 ### Panorama des exigences
-L'application « Calculatrice » est une application Python simple pour effectuer des opérations mathématiques de base (addition, soustraction, multiplication et division). Elle sert de projet éducatif pour démontrer :
+L'application « BrokerX » est une application Java simple pour effectuer des opérations mathématiques de base (addition, soustraction, multiplication et division). Elle sert de projet éducatif pour démontrer :
 - L'utilisation de conteneurs avec Docker
 - L'écriture et l'exécution de tests automatisés avec pytest
 - La mise en place d'un pipeline CI/CD avec GitLab et Docker
@@ -43,7 +43,7 @@ Le système permet aux utilisateurs de :
 - Tester automatiquement les fonctionnalités
 
 ### Contexte technique
-- **Application** : `calculator.py` - Script Python simple
+- **Application** : `calculator.py` - Script Java simple
 - **Tests** : `test_calculator.py` - Tests automatisés avec pytest
 - **Conteneurisation** : Docker Compose pour l'environnement de développement
 - **CI/CD** : Pipeline GitLab pour tests et déploiement automatique
